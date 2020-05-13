@@ -1,0 +1,14 @@
+{
+    "presets": [
+        ["@babel/preset-env", {
+            "debug": true,
+            // "targets": "last 1 year",
+            "useBuiltIns": false,
+            "exclude": [
+                "transform-template-literals"
+            ]
+        }],
+        "@babel/preset-react",
+        "linaria/babel"
+    ]
+}
